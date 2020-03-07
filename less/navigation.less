@@ -1,1 +1,47 @@
 // Navigation code here
+
+.top-nav{
+    position: fixed;
+    height: 155px;
+
+    .full-center();
+    .dis-jus-ali();
+
+    flex-direction: column;
+
+    background-color: rgba(245, 245, 245,0.95);
+    border-bottom: 2px solid @nav-border-bottom-color;
+
+
+    @media @phone {
+        .full-center();
+        height: auto;
+    }
+
+
+    .site-title{
+        font-size: 4rem;
+        padding: 2% 0;
+    }
+
+    nav{
+        width: 450px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 1%;
+
+
+        
+
+        a{
+            text-decoration: none;
+            color: grey;
+            text-align: center;
+            font-size: 1.8rem;
+            
+        }
+    }
+
+    
+
+}
