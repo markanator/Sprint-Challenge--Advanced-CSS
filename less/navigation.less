@@ -1,14 +1,16 @@
 // Navigation code here
 
 .top-nav{
+    position: fixed;
+
     .full-center();
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(245, 245, 245);
-    border-bottom: 2px solid rgb(235, 235, 235);
+    background-color: rgba(245, 245, 245,0.95);
+    border-bottom: 2px solid @nav-border-bottom-color;
 
 
     @media @phone {
@@ -28,6 +30,8 @@
         justify-content: space-evenly;
         padding-bottom: 1%;
 
+
+        
 
         a{
             text-decoration: none;

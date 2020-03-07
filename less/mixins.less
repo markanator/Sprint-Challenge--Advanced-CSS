@@ -7,3 +7,18 @@
     width: 100%;
     margin: 0 auto;
 }
+
+.signup-colors(@fontC,@bgC){
+    color: @fontC;
+    background-color: @bgC;
+
+    // css animations
+    -webkit-transition: color 0.2s, background-color 0.2s;
+    transition: color 0.2s,background-color 0.2s;
+
+}
+
+.signup-size(@width,@padVert,@padHori){
+    width: @width;
+    padding: @padVert @padHori;
+}
