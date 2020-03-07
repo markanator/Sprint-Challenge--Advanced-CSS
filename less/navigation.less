@@ -2,12 +2,12 @@
 
 .top-nav{
     position: fixed;
+    height: 155px;
 
     .full-center();
-    display: flex;
+    .dis-jus-ali();
+
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     background-color: rgba(245, 245, 245,0.95);
     border-bottom: 2px solid @nav-border-bottom-color;
@@ -15,7 +15,7 @@
 
     @media @phone {
         .full-center();
-
+        height: auto;
     }
 
 
